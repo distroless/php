@@ -48,7 +48,7 @@ jobs:
           For detailed logs: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
   scan:
-    name: Scan apko images
+    name: Scan images
     needs: build
     runs-on: ubuntu-latest
 
